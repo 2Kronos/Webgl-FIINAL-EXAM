@@ -9,7 +9,7 @@ const vsSource = `
     uniform mat4 u_TranslateMatrix;
      uniform mat4 u_Matrix;
     void main() {
-        gl_Position = u_Matrix * u_TranslateMatrix * vec4(pos*0.3, 1.0);
+        gl_Position = u_Matrix * u_TranslateMatrix * vec4(pos, 1.0);
 
         gl_PointSize = 50.0;
 
