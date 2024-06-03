@@ -22,17 +22,17 @@
  - CSS was used to style the canvas.
    
 
-## Features
+# Features
 
-#Q1
+## Q1
 - A : Draw a red triangle. The canvas should be 80% Red, 80% Green, 20% Blue.
 - B : Draw a sqaure using two trinagles. The corners of the square shoyld be red, green, blue, yello.
 
-#Q2
+## Q2
 - A : Derive the rotation matrix for the z-axis.
 - B : Write a code to multiply two matrices.
 
-# Q3
+## Q3
 - A : Draw a cube and use one of the provided images as texture for the cube.
 - B : Create buttons on your html to move the cube left, up, down, and right.
 - C : Create buttons on your html to rotate the cube in the X, Y, ad Z axis.
@@ -61,9 +61,7 @@ Install the live server extension.
 
 
 ## Contact
-Email : 21kronosingh@gmail.com
-
-- Email: 21krnonos@gmail.com
+- Email : 21kronosingh@gmail.com
 - Github: 2Kronos
 
 
