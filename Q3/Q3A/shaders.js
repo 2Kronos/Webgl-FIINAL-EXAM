@@ -8,17 +8,19 @@ const vsSource = `
 
     uniform mat4 u_TranslateMatrix;
      uniform mat4 u_Matrix;
+
+     uniform mat4 u_perspective;
+    uniform mat4 u_view;
+
+    
     void main() {
-        gl_Position = u_Matrix * u_TranslateMatrix * vec4(pos, 1.0);
+        gl_Position = u_perspective * u_view * u_Matrix * u_TranslateMatrix * vec4(pos*0.4, 1.0);
 
         gl_PointSize = 50.0;
 
         vTexCoord = picTexCoord;
     }
 `;
-
-
-
 
 
 const fsSource = `
