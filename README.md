@@ -1,7 +1,5 @@
 ## Webgl-FIINAL-EXAM
 
-![WhatsApp Image 2024-06-03 at 21 29 03_f5f4c588](https://github.com/2Kronos/Webgl-FIINAL-EXAM/assets/163877990/8be1c629-2e82-4f13-9ff2-c736a76bb9d8)
-
 
 ## Table of Contents
 
